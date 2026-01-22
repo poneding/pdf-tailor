@@ -1,0 +1,66 @@
+{
+  "app": {
+    "title": "PDF裁縫",
+    "tagline": "所有檔案處理均在瀏覽器本地完成，不會上傳到伺服器"
+  },
+  "tabs": {
+    "split": "分割",
+    "merge": "合併",
+    "pages": "頁"
+  },
+  "fileUploader": {
+    "dragging": "釋放以上傳檔案",
+    "dropHere": "拖拽PDF檔案到此處",
+    "processing": "正在處理... {progress}%",
+    "pleaseWait": "請稍候",
+    "orClick": "或點擊選擇檔案",
+    "multipleSupported": "(支援多選)"
+  },
+  "splitPanel": {
+    "loadingPdf": "正在載入PDF...",
+    "generatingPreview": "正在生成預覽...",
+    "splitting": "正在分割...",
+    "packaging": "正在打包...",
+    "loadError": "無法載入PDF檔案，請確保檔案格式正確",
+    "splitError": "分割失敗，請重試",
+    "packageError": "打包失敗，請重試",
+    "fileInfo": "{size} · {pageCount} 頁",
+    "remove": "移除",
+    "splitMode": "分割模式",
+    "byPageCount": "按頁數分割",
+    "byParts": "均分為N份",
+    "custom": "自訂範圍",
+    "extractAll": "每頁單獨提取",
+    "perPageSplit": "每",
+    "pages": "頁分割一次",
+    "splitInto": "分割為",
+    "parts": "份",
+    "rangePlaceholder": "例如: 1-3, 5, 8-10",
+    "rangeHint": "每個範圍將生成一個獨立的PDF檔案",
+    "processingText": "處理中...",
+    "startSplit": "開始分割",
+    "splitResults": "分割結果 ({count} 個檔案)",
+    "downloadAll": "全部下載 (ZIP)",
+    "download": "下載",
+    "pageRange": "頁碼: {range}"
+  },
+  "mergePanel": {
+    "loadingFile": "正在載入 {name}...",
+    "merging": "正在合併...",
+    "mergeError": "合併失敗，請重試",
+    "fileSummary": "共 {fileCount} 個檔案，{totalPages} 頁",
+    "clearAll": "清空全部",
+    "mergeButton": "合併為一個PDF ({totalPages}頁)"
+  },
+  "language": {
+    "en": "English",
+    "zhCN": "简体中文",
+    "zhTW": "繁體中文"
+  },
+  "theme": {
+    "selector": "主題",
+    "light": "淺色",
+    "dark": "深色",
+    "system": "系統"
+  }
+}

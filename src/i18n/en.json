@@ -1,0 +1,66 @@
+{
+  "app": {
+    "title": "PDF Tailor",
+    "tagline": "All file processing is done locally in your browser and will not be uploaded to any server"
+  },
+  "tabs": {
+    "split": "Split",
+    "merge": "Merge",
+    "pages": "pages"
+  },
+  "fileUploader": {
+    "dragging": "Release to upload files",
+    "dropHere": "Drag PDF files here",
+    "processing": "Processing... {progress}%",
+    "pleaseWait": "Please wait",
+    "orClick": "Or click to select files",
+    "multipleSupported": "(Multiple selection supported)"
+  },
+  "splitPanel": {
+    "loadingPdf": "Loading PDF...",
+    "generatingPreview": "Generating preview...",
+    "splitting": "Splitting...",
+    "packaging": "Packaging...",
+    "loadError": "Failed to load PDF file. Please ensure the file format is correct.",
+    "splitError": "Split failed. Please try again.",
+    "packageError": "Failed to package. Please try again.",
+    "fileInfo": "{size} · {pageCount} pages",
+    "remove": "Remove",
+    "splitMode": "Split Mode",
+    "byPageCount": "By Page Count",
+    "byParts": "Split into N Parts",
+    "custom": "Custom Range",
+    "extractAll": "Extract Each Page",
+    "perPageSplit": "Split every",
+    "pages": "pages",
+    "splitInto": "Split into",
+    "parts": "parts",
+    "rangePlaceholder": "e.g., 1-3, 5, 8-10",
+    "rangeHint": "Each range will generate a separate PDF file",
+    "processingText": "Processing...",
+    "startSplit": "Start Split",
+    "splitResults": "Split Results ({count} files)",
+    "downloadAll": "Download All (ZIP)",
+    "download": "Download",
+    "pageRange": "Pages: {range}"
+  },
+  "mergePanel": {
+    "loadingFile": "Loading {name}...",
+    "merging": "Merging...",
+    "mergeError": "Merge failed. Please try again.",
+    "fileSummary": "{fileCount} files, {totalPages} pages",
+    "clearAll": "Clear All",
+    "mergeButton": "Merge into One PDF ({totalPages} pages)"
+  },
+  "language": {
+    "en": "English",
+    "zhCN": "简体中文",
+    "zhTW": "繁體中文"
+  },
+  "theme": {
+    "selector": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}
