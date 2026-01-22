@@ -1,11 +1,16 @@
+<div align="center">
+  <img src="./public/favicon.svg" alt="PDF Tailor Logo" width="120" height="120">
+  
 # PDF Tailor
-
-English | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md)
-
-A modern, privacy-focused PDF processing tool that runs entirely in your browser. Split and merge PDF files without uploading to any server.
-
-![PDF Tailor](https://img.shields.io/badge/PDF-Tailor-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+  
+  English | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md)
+  
+  A modern, privacy-focused PDF processing tool that runs entirely in your browser. Split and merge PDF files without uploading to any server.
+  
+  ![PDF Tailor](https://img.shields.io/badge/PDF-Tailor-blue)
+  ![License](https://img.shields.io/badge/license-MIT-green)
+  
+</div>
 
 ## ✨ Features
 

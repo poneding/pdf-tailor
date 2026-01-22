@@ -1,6 +1,11 @@
+<div align="center">
+  <img src="./public/favicon.svg" alt="PDF Tailor Logo" width="80" height="80">
+  
 # Deployment Guide / 部署指南
-
-[English](#english) | [中文](#中文)
+  
+  [English](#english) | [中文](#中文)
+  
+</div>
 
 ---
 

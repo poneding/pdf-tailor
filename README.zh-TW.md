@@ -1,11 +1,16 @@
+<div align="center">
+  <img src="./public/favicon.svg" alt="PDF裁縫 Logo" width="120" height="120">
+  
 # PDF裁縫
-
-[English](./README.md) | [简体中文](./README.zh-CN.md) | 繁體中文
-
-一個現代化、注重隱私的 PDF 處理工具，完全在瀏覽器中執行。無需上傳檔案到伺服器即可分割和合併 PDF 檔案。
-
-![PDF Tailor](https://img.shields.io/badge/PDF-Tailor-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+  
+  [English](./README.md) | [简体中文](./README.zh-CN.md) | 繁體中文
+  
+  一個現代化、注重隱私的 PDF 處理工具，完全在瀏覽器中執行。無需上傳檔案到伺服器即可分割和合併 PDF 檔案。
+  
+  ![PDF Tailor](https://img.shields.io/badge/PDF-Tailor-blue)
+  ![License](https://img.shields.io/badge/license-MIT-green)
+  
+</div>
 
 ## ✨ 功能特性
 

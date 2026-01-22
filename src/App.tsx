@@ -1,6 +1,6 @@
+import { Combine, Scissors } from 'lucide-react';
 import { useState } from 'react';
-import { MergePanel, SplitPanel, ThemeSelector, LanguageSelector } from './components';
-import { Scissors, Combine, FileText } from 'lucide-react';
+import { LanguageSelector, MergePanel, SplitPanel, ThemeSelector } from './components';
 import { useTranslation } from './i18n';
 
 type TabType = 'split' | 'merge';
@@ -14,10 +14,10 @@ function App() {
       <header className="bg-white dark:bg-gray-800 shadow-sm border-b dark:border-gray-700">
         <div className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <FileText className="w-8 h-8 text-blue-500 dark:text-blue-400" />
+            <img src="/favicon.svg" alt="PDF Tailor Logo" className="w-8 h-8" />
             <h1 className="text-xl font-bold text-gray-800 dark:text-white">{t('app.title')}</h1>
           </div>
-          
+
           <div className="flex items-center gap-2">
             <ThemeSelector />
             <LanguageSelector />
@@ -31,8 +31,8 @@ function App() {
             <button
               onClick={() => setActiveTab('split')}
               className={`flex-1 py-4 px-6 text-center font-medium transition-colors ${activeTab === 'split'
-                  ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-500 dark:border-blue-400 bg-blue-50/50 dark:bg-blue-900/20'
-                  : 'text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700'
+                ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-500 dark:border-blue-400 bg-blue-50/50 dark:bg-blue-900/20'
+                : 'text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700'
                 }`}
             >
               <div className="flex items-center justify-center gap-2">
@@ -43,8 +43,8 @@ function App() {
             <button
               onClick={() => setActiveTab('merge')}
               className={`flex-1 py-4 px-6 text-center font-medium transition-colors ${activeTab === 'merge'
-                  ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-500 dark:border-blue-400 bg-blue-50/50 dark:bg-blue-900/20'
-                  : 'text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700'
+                ? 'text-blue-600 dark:text-blue-400 border-b-2 border-blue-500 dark:border-blue-400 bg-blue-50/50 dark:bg-blue-900/20'
+                : 'text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700'
                 }`}
             >
               <div className="flex items-center justify-center gap-2">
